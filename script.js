@@ -26,7 +26,7 @@ document.getElementById('admissionForm').addEventListener('submit', async functi
 
     try {
         // Change the URL below to your actual backend endpoint!
-        const response = await fetch('https://d5c9-34-16-133-147.ngrok-free.app/predict', {
+        const response = await fetch('https://admission-backend-bk2t.onrender.com/predict', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify(data)
